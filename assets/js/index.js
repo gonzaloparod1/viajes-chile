@@ -3,6 +3,10 @@ $("#enviarMensaje").click(function() {
 });
 $(function() {
     $("#enviarMensaje").tooltip();
+    $("#github").tooltip();
+    $("#linkedin").tooltip();
+    $("#twitter").tooltip();
+    $("#facebook").tooltip();
 });
 $(document).ready(function() {
     $("a").on('click', function(event) {
