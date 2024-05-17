@@ -8,6 +8,19 @@ $(function() {
     $("#twitter").tooltip();
     $("#facebook").tooltip();
 });
+
+$(document).ready(function() {
+    $("h1").click(function() {
+        $("p").toggle();
+    });        
+});
+
+$("h2").on("dblclick", function() {
+    $(this).css({
+        'color': 'blue'
+    });
+});
+
 $(document).ready(function() {
     $("a").on('click', function(event) {
 
